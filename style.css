@@ -1,0 +1,421 @@
+ 
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+.logo-img {
+    /* background-color: pink; */
+    /* text-align: center; */
+    margin: 10px 10px;
+    height: 160px;
+    padding: 30px 30px;
+    /* padding-bottom: 20px; */
+}
+.hang{
+    background-color: pink;
+}
+.btn-head{
+    
+    margin: 10px 10px;
+    height: 160px;
+    padding: 30px 30px;
+
+}
+.btn-head button{
+    background-color: #666;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 60%;
+  font-size: 20px;
+  color: white;
+}
+
+
+.logo-img img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+  /* Style the header links */
+  .header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right a{
+    text-align: center;
+    margin-left: 90px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  /* @media screen and (max-width: 500px) {
+    .header a {
+      float: left;
+      display: block;
+      text-align: left;
+      margin-left: 0px;
+    }
+    .header-right {
+      /* float: none; */
+    }
+  } */
+
+.cat-img{
+    background-color: #57ca00;
+}
+.cat-body{
+    /* background-color: black; */
+    position: relative;
+    text-align: center;
+    
+}
+.button-sec{
+    background-color: pink;
+    color: white;
+    position: absolute;
+    bottom: 200px;
+    display: block;
+    left: 250px;
+    width: 10%;
+    height: 400px;
+    width:400px;
+    opacity: 0.8;
+}
+  .cat-body img{   
+    width: 100%;
+    position: relative;
+  }
+.button-sec p{
+    color: black;
+    font-size: 30px;
+    padding: 50px 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button-sec button{
+    background-color: #666;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 70%;
+  font-size: 20px;
+  color: black;
+}
+/* ourCutiee  */
+
+.ourCutiee {
+    padding: 150px 0;
+}
+.ourCutiee h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ourCutieeBox {}
+.ourCutieeBox img {}
+.ourCutieeBox h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.ourCutieeBox p {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.ourCutieeBox a {
+    display: table;
+    margin: 0px auto;
+    color: #666;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.ourCutieeBox a:hover {
+    color: #57ca00;
+}
+/*Our Mission */
+.our-mission{
+	padding: 50px 0;
+}
+.mission-text h2{
+    font-size: 32px;
+    
+}
+.mission-text p{
+	font-size: 18px;
+}
+
+.img-text{
+    margin-bottom: 50px;
+}
+
+.partner-img{
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+        /* background-color: #57ca00; */
+        text-align: center;
+    
+}
+.partner-img1{
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    /* background-color: #57ca00; */
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.img-text img {width: 100%  }
+/*Our Mission*/
+
+/* News And Events */
+
+.news-events{
+    /* padding: 50px; */
+    /* background-color: #666; */
+    margin-top: 10px;
+}
+
+
+.slider{
+    background-color: grey;
+    height: fit-content;
+    /*margin-left: 28px;*/
+    margin-top: -10px;
+        position: relative;
+}
+.slider ol {
+    list-style: none;
+    height: 600px;
+    overflow-y: scroll;
+}
+.slider h4{
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  padding-top: 30px ;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.slider:before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 100%;
+    background: grey;
+    left: -30px;
+}
+.slider ol{
+  list-style: none;
+  padding: 0px 20px;
+
+}
+.img-post img{
+  height: 60px;
+  width: 90px;
+}
+.img-post p{
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 0px
+}
+.imag-build img{
+    /* background-color: #57ca00; */
+    width: 100%;
+}
+.heading-trend{
+    /* margin-left: 0px; */
+}
+
+
+/* News And Events */
+
+.team-heading h4{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.container img{
+   
+    
+}
+.container h5{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.our-mission h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.our-mision p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.team p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container h6{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container input{
+    display: block;
+    margin-left: 40%;
+    /* right: 50%; */
+}
+.container button{
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    /* margin-right: 50%; */
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer h6{
+    margin-top: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer p{
+        text-align: center; 
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* newFeed */
+
+
+.newFeed { margin-bottom: 30px; }
+.newFeed .col-lg-6 { padding: 0 }
+.newFeed img {
+    width: 100%;
+    padding-right: 10px;
+}
+.newFeed p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 6px 0px;
+    }
+
+
+
+
+/* newFeed */
+
+
+/* About Us*/
+
+.about{}
+.about h4{
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 6px 0px;
+}
+
+.about p{
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 250px; 
+}
+
+/*About Us*/
+
+
+/*Contact Us*/
+.reg-form h1{
+  text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 6px 0px; 
+}
+
+.reg-form label{
+ text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 6px 0px;  
+}
+
+
+
+.reg-form input{
+ text-align: center;
+  color: #000;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 6px 0px;  
+}
+
+.aboutUS img{
+  /*margin-left: 50%;*/
+  right: 0px;
+  text-align: center;
+}
+
+
+/*Contact Us*/
